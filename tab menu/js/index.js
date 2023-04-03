@@ -15,3 +15,17 @@ tabButtons.forEach((button) => {
     button.classList.add("active");
   });
 });
+
+// Jquery
+// $(document).ready(function() {
+//   $('.tab-btn').click(function() {
+//     const tab_id = $(this).attr('data-tab');
+
+//     $('.tab-btn').removeClass('active');
+//     $('.tab-pane').removeClass('active');
+
+//     $(this).addClass('active');
+//     $('#' + tab_id).addClass('active');
+//   });
+// });
+
